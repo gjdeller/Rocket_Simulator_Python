@@ -15,7 +15,7 @@ step 2)
 
 
 
-class Kinematics():
+class Kinematics:
     def __init__(self, velocity, position, launch_angle, acceleration, time):
         self.velocity = velocity
         self.position = position #[x,y]
@@ -113,6 +113,7 @@ class Kinematics():
         
         return self.max_position
 
+"""
  # Test main
 if __name__ == "__main__":
     # Initial parameters: velocity, position [x, y], launch angle, acceleration, time
@@ -140,4 +141,4 @@ if __name__ == "__main__":
     print("Position after time", kinematics.get_time(), "s:", kinematics.get_position())
     print("Final Velocity:", kinematics.get_final_velocity(), "m/s")
     print("Max Position:", kinematics.get_max_position(), "m")       
-
+"""

@@ -9,7 +9,7 @@ import math
 
     Outputs: Aerodynamics forces (drag, lift)
 """
-class Aerodynamics():
+class Aerodynamics:
     def __init__(self, dragCoeff, surfaceArea, airDensity):
         #initialize variables
         self.dragCoeff = dragCoeff 
@@ -45,7 +45,8 @@ class Aerodynamics():
     
     def get_air_density(self):
         return self.airDensity
-    
+
+"""
 #Test Main
 if __name__ == "__main__":
     #instance of aerodyanmcis classs
@@ -65,7 +66,7 @@ if __name__ == "__main__":
     print("Drag Coefficient: ", aero.get_drag_coeff())
     print("Surface Area: ", aero.get_surface_area(), "m^2")
     print("Air Density: ", aero.get_air_density(), "kg/m^3")
-
+"""
 
 
         
